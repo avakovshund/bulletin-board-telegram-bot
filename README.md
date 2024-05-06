@@ -1,8 +1,12 @@
 # Bulletin Board Telegram Bot
-Python Aiogram 3.x
-Telegram Bulletin Board Bot for a small audience.
 
-image 1
+Python Aiogram 3.x
+
+<p align="center">
+<img src="https://i.imgur.com/ukqMmO7.jpg" width=600 height=510.4>
+</p>
+
+Telegram Bulletin Board Bot for a small audience.
 
 There are SQLite databases on SQLAlchemy. The database contains information about ads and premium users. 30 days after the ad is submitted, it is automatically deleted. An regular user cannot submit more than 3 ads.
 
@@ -40,12 +44,15 @@ The ad includes:
 This is done for easy of communication, since several photos in a Telegram are an album data type and it is impossible to attach an inline button to such a message)
 
 ## Commands
-/start - start command to begin work with bot or to restart bot if something gone wrong, update is not handled etc.
-/help - command that displays introductory information.
-/admin - command to log in to the admin panel only if your ID is in .env - ADMINS, if not nothing will happen.
+- /start - start command to begin work with bot or to restart bot if something gone wrong, update is not handled etc.
+- /help - command that displays introductory information.
+- /admin - command to log in to the admin panel only if your ID is in .env - ADMINS, if not nothing will happen.
+- /image - command to change/set welcome image that appears with command "/start".
 
 ### User FSM Table
 
-image 2
+<p align="center">
+<img src="https://i.imgur.com/0WBkgIS.png" width=426.7 height=683.3>
+</p>
 
 Thanks for watching. Hope you enjoy! Hope for your star!
