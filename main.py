@@ -14,7 +14,7 @@ from app.database.engine import create_db, session_maker
 from app.database.scheduled_func import check_for_date
 from app.user_panel.user_routers import user_router
 from app.admin_panel.admin_routers import admin_router
-from misc.commands import set_commands
+from app.misc.commands import set_commands
 
 bot = Bot(token=os.getenv('BOT_TOKEN'), parse_mode='HTML')
 
